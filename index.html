@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lending library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg">
+  <main >
+    <h1>the library</h1>
+    <p>Search for author by name</p>
+    <input id="titleSearch" >
+    <button type="button" onclick="titlSearch()">search</button>
+    <p id='result'></p>
+
+    <h2>ADD A BOOK TO THE LIBRARY</h2>
+    <p>author's name </p>
+    <input id="Book">
+    <p>book title</p>
+    <input id="title">
+    <button type="button" onclick="addBook()">add</button>
+
+    <h2>BOOKS CURRENTLY IN THE LIBRARY</h2>
+    <button type="button" onclick="showAllBooks()">show books</button>
+    <ol id="allTheBooks">
+
+    </ol>
+
+
+    <h2>ADD NEW USER</h2>
+    <p>user's name </p>
+    <input id="name">
+    <p>identity card</p>
+    <input id="card">
+    <button type="button" onclick="useraccount()">add</button>
+  </main>
+  <footer>
+    <p>wmdd 4820 2016</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
